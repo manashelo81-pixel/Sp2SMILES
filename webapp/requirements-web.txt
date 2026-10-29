@@ -1,0 +1,13 @@
+streamlit>=1.35
+numpy
+pandas
+scipy
+matplotlib
+rdkit
+selfies
+pyopenms
+openpyxl
+pillow
+# PyTorch is needed for fingerprint retrieval. Install the CPU build to save space:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch

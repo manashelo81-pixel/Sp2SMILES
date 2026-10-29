@@ -1,8 +1,0 @@
-services:
-  smiles-ms:
-    build: .
-    ports:
-      - "8501:8501"
-    volumes:
-      - ./models:/app/models
-    restart: unless-stopped
